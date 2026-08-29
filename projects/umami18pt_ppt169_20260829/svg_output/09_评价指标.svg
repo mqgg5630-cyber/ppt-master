@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#F4F6F7"/>
+
+  <g id="page-header" data-pptx-bounds="64 44 1152 110">
+    <text x="64" y="70" font-size="24" fill="#0E8F86" font-weight="bold" letter-spacing="2">02 · 机器学习技术路线</text>
+    <rect x="64" y="86" width="48" height="6" rx="3" fill="#E8743B"/>
+    <text x="64" y="132" font-size="40" font-weight="bold" fill="#0B2C47">怎么判断模型准不准</text>
+  </g>
+
+  <g id="metric-donut" data-pptx-bounds="64 172 420 300">
+    <g id="metric-donut-chart" data-pptx-replace-with="chart">
+      <metadata type="application/json">
+        {
+          "x": 64, "y": 172, "width": 420, "height": 300,
+          "name": "metric-donut",
+          "type": "doughnut",
+          "categories": ["ACC", "MCC", "Sn", "BACC"],
+          "series": [
+            {"name": "关注权重（示意）", "values": [1,1,1,1], "point_colors": ["#0E8F86","#E8743B","#4F86B2","#B7C3CD"]}
+          ],
+          "data_labels": false
+        }
+      </metadata>
+      <rect x="68" y="176" width="420" height="300" rx="16" fill="#E3E9ED"/>
+      <rect x="64" y="172" width="420" height="300" rx="16" fill="#FFFFFF" stroke="#DDE6EC" stroke-width="1.5"/>
+      <text x="88" y="214" font-size="26" font-weight="bold" fill="#0B2C47">五类指标要交叉考察</text>
+      <circle cx="274" cy="330" r="86" fill="none" stroke="#0E8F86" stroke-width="30" stroke-dasharray="135 407" transform="rotate(-90 274 330)"/>
+      <circle cx="274" cy="330" r="86" fill="none" stroke="#E8743B" stroke-width="30" stroke-dasharray="135 407" stroke-dashoffset="-135" transform="rotate(-90 274 330)"/>
+      <circle cx="274" cy="330" r="86" fill="none" stroke="#4F86B2" stroke-width="30" stroke-dasharray="70 472" stroke-dashoffset="-270" transform="rotate(-90 274 330)"/>
+      <circle cx="274" cy="330" r="86" fill="none" stroke="#B7C3CD" stroke-width="30" stroke-dasharray="62 480" stroke-dashoffset="-340" transform="rotate(-90 274 330)"/>
+      <text x="274" y="324" font-size="24" fill="#6B7C8A" text-anchor="middle">指标组合</text>
+      <text x="274" y="356" font-size="24" fill="#0B2C47" text-anchor="middle" font-weight="bold">缺一不可</text>
+    </g>
+  </g>
+
+  <g id="metric-cards" data-pptx-bounds="508 172 708 300">
+    <g id="m1">
+      <rect x="512" y="176" width="348" height="92" rx="14" fill="#E3E9ED"/>
+      <rect x="508" y="172" width="348" height="92" rx="14" fill="#FFFFFF" stroke="#CFE4E1" stroke-width="1.5"/>
+      <rect x="508" y="172" width="6" height="92" rx="3" fill="#0E8F86"/>
+      <text x="536" y="214" font-size="26" font-weight="bold" fill="#0B2C47">ACC 准确率</text>
+      <text x="536" y="248" font-size="24" fill="#273742">最直观，但类别不平衡时会被多数类带偏</text>
+    </g>
+    <g id="m2">
+      <rect x="872" y="176" width="348" height="92" rx="14" fill="#E3E9ED"/>
+      <rect x="868" y="172" width="348" height="92" rx="14" fill="#FFFFFF" stroke="#F0DECF" stroke-width="1.5"/>
+      <rect x="868" y="172" width="6" height="92" rx="3" fill="#E8743B"/>
+      <text x="896" y="214" font-size="26" font-weight="bold" fill="#0B2C47">MCC 相关系数</text>
+      <text x="896" y="248" font-size="24" fill="#273742">-1~1，不平衡数据最稳健</text>
+    </g>
+    <g id="m3">
+      <rect x="512" y="284" width="708" height="92" rx="14" fill="#F0DECF"/>
+      <rect x="508" y="280" width="708" height="92" rx="14" fill="#FBE9DD" stroke="#F0DECF" stroke-width="1.5"/>
+      <rect x="508" y="280" width="6" height="92" rx="3" fill="#E8743B"/>
+      <text x="536" y="322" font-size="26" font-weight="bold" fill="#B5663A">Sn 灵敏度（召回率）= 鲜味肽被找出的比例</text>
+      <text x="536" y="356" font-size="24" fill="#273742">漏筛＝漏掉新肽；iUP-BERT 靠 SMOTE 提升 13.6–25pp</text>
+    </g>
+  </g>
+
+  <g id="protocol-band" data-pptx-bounds="64 496 1152 168">
+    <rect x="64" y="496" width="1152" height="168" rx="16" fill="#0B2C47"/>
+    <use data-icon="tabler-outline/award" x="100" y="524" width="36" height="36" fill="#2FB3A8" stroke-width="2"/>
+    <text x="150" y="552" font-size="28" font-weight="bold" fill="#FFFFFF">验证协议</text>
+    <g id="proto-items" font-size="24" fill="#DCE8F2">
+      <text x="100" y="594">· 10 折交叉验证调参 + 独立测试集报告指标</text>
+      <text x="100" y="630">· 分子对接给机制证据，合成 + 感官评价最终确证</text>
+    </g>
+    <rect x="700" y="560" width="480" height="88" rx="14" fill="#123A5A"/>
+    <text x="728" y="600" font-size="24" fill="#F2994A" font-weight="bold">同测试集才能比较；</text>
+    <text x="728" y="634" font-size="24" fill="#DCE8F2">指标高 ≠ 感官呈鲜。</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1116 674 110 34">
+    <text x="1216" y="700" font-size="24" fill="#A3B2BF" text-anchor="end">09 / 15</text>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#F4F6F7"/>
+
+  <g id="page-header" data-pptx-bounds="64 44 1152 110">
+    <text x="64" y="70" font-size="24" fill="#0E8F86" font-weight="bold" letter-spacing="2">03 · 模型进展、工具与应用</text>
+    <rect x="64" y="86" width="48" height="6" rx="3" fill="#E8743B"/>
+    <text x="64" y="132" font-size="40" font-weight="bold" fill="#0B2C47">开箱即用：在线预测服务器</text>
+  </g>
+
+  <g id="tools-table" data-pptx-bounds="64 172 720 380">
+    <g id="tools-table-table" data-pptx-replace-with="table">
+      <metadata type="application/json">
+        {
+          "x": 64, "y": 172, "width": 720, "height": 380,
+          "name": "tools-table",
+          "type": "record_table",
+          "style": {"font_size": 24, "header_font_size": 24, "font_family": "Microsoft YaHei"},
+          "columns": ["工具", "特点 / 入口"],
+          "rows": [
+            ["iUmami-SCM", "Web 服务器"],
+            ["UMPred-FRL", "pmlabstack 服务器"],
+            ["iUP-BERT", "aibiochem.net 服务器"],
+            ["Umami-BERT", "带注意力解释"],
+            ["VirtuousUmami", "GitHub 开源，多输入"],
+            ["VmmScore", "预测+对接一体管线"]
+          ]
+        }
+      </metadata>
+      <rect x="68" y="176" width="720" height="380" rx="16" fill="#E3E9ED"/>
+      <rect x="64" y="172" width="720" height="380" rx="16" fill="#FFFFFF" stroke="#DDE6EC" stroke-width="1.5"/>
+      <text x="88" y="214" font-size="26" font-weight="bold" fill="#0B2C47">六个常用工具</text>
+      <rect x="88" y="230" width="672" height="48" rx="10" fill="#0B2C47"/>
+      <text x="112" y="263" font-size="24" font-weight="bold" fill="#FFFFFF">工具</text>
+      <text x="340" y="263" font-size="24" font-weight="bold" fill="#FFFFFF">特点 / 入口</text>
+      <g id="rows" font-size="24" fill="#273742">
+        <text x="112" y="314">iUmami-SCM</text><text x="340" y="314">Web 服务器</text>
+        <line x1="88" y1="330" x2="760" y2="330" stroke="#F2F5F8" stroke-width="1.5"/>
+        <text x="112" y="364">UMPred-FRL</text><text x="340" y="364">pmlabstack 服务器</text>
+        <line x1="88" y1="380" x2="760" y2="380" stroke="#F2F5F8" stroke-width="1.5"/>
+        <text x="112" y="414">iUP-BERT</text><text x="340" y="414">aibiochem.net 服务器</text>
+        <line x1="88" y1="430" x2="760" y2="430" stroke="#F2F5F8" stroke-width="1.5"/>
+        <text x="112" y="464">Umami-BERT</text><text x="340" y="464">带注意力解释</text>
+        <line x1="88" y1="480" x2="760" y2="480" stroke="#F2F5F8" stroke-width="1.5"/>
+        <text x="112" y="514">VirtuousUmami</text><text x="340" y="514">GitHub 开源，支持 SMILES/FASTA</text>
+      </g>
+      <text x="88" y="542" font-size="24" fill="#273742">VmmScore</text><text x="340" y="542" font-size="24" fill="#273742">预测 + 对接一体管线</text>
+    </g>
+  </g>
+
+  <g id="quickstart" data-pptx-bounds="808 172 408 380">
+    <rect x="808" y="172" width="408" height="380" rx="16" fill="#0B2C47"/>
+    <use data-icon="tabler-outline/route" x="836" y="200" width="36" height="36" fill="#2FB3A8" stroke-width="2"/>
+    <text x="882" y="228" font-size="28" font-weight="bold" fill="#FFFFFF">快速上手三步</text>
+    <g id="steps">
+      <circle cx="852" cy="290" r="20" fill="#0E8F86"/><text x="852" y="298" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">1</text>
+      <text x="888" y="286" font-size="24" font-weight="bold" fill="#FFFFFF">准备 FASTA 序列</text>
+      <text x="888" y="316" font-size="24" fill="#AEBFD0">粘贴肽 / 蛋白序列</text>
+      <circle cx="852" cy="382" r="20" fill="#0E8F86"/><text x="852" y="390" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">2</text>
+      <text x="888" y="378" font-size="24" font-weight="bold" fill="#FFFFFF">提交预测</text>
+      <text x="888" y="408" font-size="24" fill="#AEBFD0">返回呈鲜概率与排名</text>
+      <circle cx="852" cy="474" r="20" fill="#F2994A"/><text x="852" y="482" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">3</text>
+      <text x="888" y="470" font-size="24" font-weight="bold" fill="#FFFFFF">送对接 / 感官</text>
+      <text x="888" y="500" font-size="24" fill="#AEBFD0">高置信肽做后续验证</text>
+    </g>
+  </g>
+
+  <g id="tip-band" data-pptx-bounds="64 576 1152 84">
+    <rect x="64" y="576" width="1152" height="84" rx="16" fill="#FBE9DD" stroke="#F0DECF" stroke-width="1.5"/>
+    <use data-icon="tabler-outline/filter" x="96" y="600" width="36" height="36" fill="#E8743B" stroke-width="2"/>
+    <text x="146" y="614" font-size="24" fill="#B5663A" font-weight="bold">本地部署 VirtuousUmami 等开源工具，可对自建肽库批量筛选</text>
+    <text x="146" y="646" font-size="24" fill="#273742">配套：BIOPEP-UWM 肽库 + PeptideRanker 活性初筛，零成本起步</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1116 674 110 34">
+    <text x="1216" y="700" font-size="24" fill="#A3B2BF" text-anchor="end">11 / 15</text>
+  </g>
+</svg>

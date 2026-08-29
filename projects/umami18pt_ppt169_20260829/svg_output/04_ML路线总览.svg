@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#F4F6F7"/>
+
+  <g id="page-header" data-pptx-bounds="64 44 1152 110">
+    <text x="64" y="70" font-size="24" fill="#0E8F86" font-weight="bold" letter-spacing="2">02 · 机器学习技术路线</text>
+    <rect x="64" y="86" width="48" height="6" rx="3" fill="#E8743B"/>
+    <text x="64" y="132" font-size="40" font-weight="bold" fill="#0B2C47">完整流水线：预测—验证双轨</text>
+  </g>
+
+  <g id="dry-lane" data-pptx-bounds="64 172 1152 232">
+    <text x="64" y="200" font-size="24" fill="#0E8F86" font-weight="bold">干实验 · 计算预测</text>
+    <g id="d1">
+      <rect x="68" y="214" width="170" height="120" rx="14" fill="#DFF0EE" stroke="#0E8F86" stroke-width="1.5"/>
+      <use data-icon="tabler-outline/database" x="88" y="230" width="32" height="32" fill="#0E8F86" stroke-width="2"/>
+      <text x="153" y="288" font-size="24" font-weight="bold" fill="#0B2C47" text-anchor="middle">1 数据收集</text>
+      <text x="153" y="318" font-size="24" fill="#273742" text-anchor="middle">数据库 + 文献</text>
+    </g>
+    <use data-icon="tabler-outline/arrow-right" x="240" y="258" width="26" height="26" fill="#9AA8B3" stroke-width="2"/>
+    <g id="d2">
+      <rect x="272" y="214" width="170" height="120" rx="14" fill="#DFF0EE" stroke="#0E8F86" stroke-width="1.5"/>
+      <use data-icon="tabler-outline/route" x="292" y="230" width="32" height="32" fill="#0E8F86" stroke-width="2"/>
+      <text x="357" y="288" font-size="24" font-weight="bold" fill="#0B2C47" text-anchor="middle">2 虚拟酶解</text>
+      <text x="357" y="318" font-size="24" fill="#273742" text-anchor="middle">规则切短肽库</text>
+    </g>
+    <use data-icon="tabler-outline/arrow-right" x="444" y="258" width="26" height="26" fill="#9AA8B3" stroke-width="2"/>
+    <g id="d3">
+      <rect x="476" y="214" width="170" height="120" rx="14" fill="#DFF0EE" stroke="#0E8F86" stroke-width="1.5"/>
+      <use data-icon="tabler-outline/binary-tree" x="496" y="230" width="32" height="32" fill="#0E8F86" stroke-width="2"/>
+      <text x="561" y="288" font-size="24" font-weight="bold" fill="#0B2C47" text-anchor="middle">3 特征编码</text>
+      <text x="561" y="318" font-size="24" fill="#273742" text-anchor="middle">序列 → 向量</text>
+    </g>
+    <use data-icon="tabler-outline/arrow-right" x="648" y="258" width="26" height="26" fill="#9AA8B3" stroke-width="2"/>
+    <g id="d4">
+      <rect x="680" y="214" width="170" height="120" rx="14" fill="#0B2C47"/>
+      <use data-icon="tabler-outline/brain" x="700" y="230" width="32" height="32" fill="#2FB3A8" stroke-width="2"/>
+      <text x="765" y="288" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4 模型预测</text>
+      <text x="765" y="318" font-size="24" fill="#AEBFD0" text-anchor="middle">呈鲜概率打分</text>
+    </g>
+    <use data-icon="tabler-outline/arrow-right" x="852" y="258" width="26" height="26" fill="#9AA8B3" stroke-width="2"/>
+    <g id="d5">
+      <rect x="884" y="214" width="170" height="120" rx="14" fill="#DFF0EE" stroke="#0E8F86" stroke-width="1.5"/>
+      <use data-icon="tabler-outline/atom-2" x="904" y="230" width="32" height="32" fill="#0E8F86" stroke-width="2"/>
+      <text x="969" y="288" font-size="24" font-weight="bold" fill="#0B2C47" text-anchor="middle">5 分子对接</text>
+      <text x="969" y="318" font-size="24" fill="#273742" text-anchor="middle">T1R1/T1R3</text>
+    </g>
+  </g>
+
+  <g id="feedback-arrow" data-pptx-bounds="64 356 1152 52">
+    <line x1="969" y1="360" x2="969" y2="384" stroke="#E8743B" stroke-width="2.5"/>
+    <line x1="969" y1="384" x2="153" y2="384" stroke="#E8743B" stroke-width="2.5"/>
+    <line x1="153" y1="384" x2="153" y2="334" stroke="#E8743B" stroke-width="2.5"/>
+    <polygon points="153,334 145,348 161,348" fill="#E8743B"/>
+    <rect x="470" y="366" width="300" height="36" rx="18" fill="#FBE9DD"/>
+    <text x="620" y="391" font-size="24" fill="#B5663A" text-anchor="middle" font-weight="bold">↺ 验证结果回流，持续扩充训练集</text>
+  </g>
+
+  <g id="wet-lane" data-pptx-bounds="64 416 1152 152">
+    <text x="64" y="444" font-size="24" fill="#E8743B" font-weight="bold">湿实验 · 实验验证</text>
+    <g id="w1">
+      <rect x="300" y="458" width="300" height="100" rx="14" fill="#FBE9DD" stroke="#E8743B" stroke-width="1.5"/>
+      <use data-icon="tabler-outline/test-pipe" x="324" y="482" width="34" height="34" fill="#E8743B" stroke-width="2"/>
+      <text x="450" y="500" font-size="26" font-weight="bold" fill="#0B2C47" text-anchor="middle">6 合成与感官验证</text>
+      <text x="450" y="534" font-size="24" fill="#273742" text-anchor="middle">肽合成 → 人工感官评定确证</text>
+    </g>
+    <use data-icon="tabler-outline/arrow-right" x="612" y="494" width="30" height="30" fill="#E8743B" stroke-width="2"/>
+    <g id="w2">
+      <rect x="652" y="458" width="260" height="100" rx="14" fill="#FFFFFF" stroke="#DDE6EC" stroke-width="1.5"/>
+      <use data-icon="tabler-outline/award" x="676" y="482" width="34" height="34" fill="#0B2C47" stroke-width="2"/>
+      <text x="790" y="500" font-size="26" font-weight="bold" fill="#0B2C47" text-anchor="middle">新型呈味肽</text>
+      <text x="790" y="534" font-size="24" fill="#273742" text-anchor="middle">低钠调味品原料</text>
+    </g>
+  </g>
+
+  <g id="ml-formal" data-pptx-bounds="64 586 1152 92">
+    <rect x="64" y="586" width="1152" height="92" rx="16" fill="#0B2C47"/>
+    <rect x="64" y="586" width="8" height="92" rx="4" fill="#2FB3A8"/>
+    <text x="100" y="626" font-size="24" fill="#AEBFD0">数学本质：把「这条肽鲜不鲜」建模为监督学习二分类</text>
+    <text x="100" y="662" font-size="28" font-weight="bold" fill="#FFFFFF">f(肽序列 / 特征向量) → 呈鲜概率 p</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1116 674 110 34">
+    <text x="1216" y="700" font-size="24" fill="#A3B2BF" text-anchor="end">04 / 15</text>
+  </g>
+</svg>

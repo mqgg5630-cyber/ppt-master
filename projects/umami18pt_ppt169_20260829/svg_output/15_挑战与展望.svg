@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#F4F6F7"/>
+
+  <g id="page-header" data-pptx-bounds="64 44 1152 110">
+    <text x="64" y="70" font-size="24" fill="#0E8F86" font-weight="bold" letter-spacing="2">05 · 挑战与展望</text>
+    <rect x="64" y="86" width="48" height="6" rx="3" fill="#E8743B"/>
+    <text x="64" y="132" font-size="40" font-weight="bold" fill="#0B2C47">未来：从「预测鲜味」到「设计鲜味」</text>
+  </g>
+
+  <g id="outlook-art" data-pptx-bounds="700 172 516 320">
+    <rect x="704" y="176" width="516" height="320" rx="20" fill="#E3E9ED"/>
+    <rect x="700" y="172" width="516" height="320" rx="20" fill="#FFFFFF" stroke="#DDE6EC" stroke-width="1.5"/>
+    <image href="../images/outlook_future.png" x="720" y="192" width="476" height="280" preserveAspectRatio="xMidYMid meet"/>
+  </g>
+
+  <g id="challenge-cards" data-pptx-bounds="64 172 600 320">
+    <g id="ch-1">
+      <rect x="68" y="176" width="600" height="96" rx="16" fill="#E3E9ED"/>
+      <rect x="64" y="172" width="600" height="96" rx="16" fill="#FFFFFF" stroke="#F0DECF" stroke-width="1.5"/>
+      <circle cx="112" cy="220" r="24" fill="#FBE9DD"/>
+      <use data-icon="tabler-outline/alert-triangle" x="94" y="202" width="36" height="36" fill="#E8743B" stroke-width="2"/>
+      <text x="154" y="216" font-size="26" font-weight="bold" fill="#0B2C47">数据规模小、类别不平衡</text>
+      <text x="154" y="250" font-size="24" fill="#273742">标注仅数百条、口径不一，泛化受限。</text>
+    </g>
+    <g id="ch-2">
+      <rect x="68" y="288" width="600" height="96" rx="16" fill="#E3E9ED"/>
+      <rect x="64" y="284" width="600" height="96" rx="16" fill="#FFFFFF" stroke="#F0DECF" stroke-width="1.5"/>
+      <circle cx="112" cy="332" r="24" fill="#FBE9DD"/>
+      <use data-icon="tabler-outline/brain" x="94" y="314" width="36" height="36" fill="#E8743B" stroke-width="2"/>
+      <text x="154" y="328" font-size="26" font-weight="bold" fill="#0B2C47">可解释性仍浅</text>
+      <text x="154" y="362" font-size="24" fill="#273742">注意力定位残基，机制仍需实验补强。</text>
+    </g>
+    <g id="ch-3">
+      <rect x="68" y="400" width="600" height="96" rx="16" fill="#E3E9ED"/>
+      <rect x="64" y="396" width="600" height="96" rx="16" fill="#FFFFFF" stroke="#F0DECF" stroke-width="1.5"/>
+      <circle cx="112" cy="444" r="24" fill="#FBE9DD"/>
+      <use data-icon="tabler-outline/chart-bar" x="94" y="426" width="36" height="36" fill="#E8743B" stroke-width="2"/>
+      <text x="154" y="440" font-size="26" font-weight="bold" fill="#0B2C47">从分类走向定量泛化</text>
+      <text x="154" y="474" font-size="24" fill="#273742">阈值、强度、增鲜协同等回归待突破。</text>
+    </g>
+  </g>
+
+  <g id="future-directions" data-pptx-bounds="64 516 600 134">
+    <rect x="64" y="516" width="600" height="134" rx="16" fill="#0B2C47"/>
+    <use data-icon="tabler-outline/bulb" x="92" y="544" width="32" height="32" fill="#2FB3A8" stroke-width="2"/>
+    <text x="136" y="568" font-size="26" font-weight="bold" fill="#FFFFFF">展望方向</text>
+    <text x="92" y="604" font-size="24" fill="#DCE8F2">· 多任务 / 多味觉学习，AI 从头设计鲜味肽</text>
+    <text x="92" y="638" font-size="24" fill="#DCE8F2">· 预测—对接—验证闭环自动化，服务低钠食品</text>
+  </g>
+
+  <g id="conclusion-band" data-pptx-bounds="700 516 516 134">
+    <rect x="700" y="516" width="516" height="134" rx="16" fill="#0B2C47"/>
+    <rect x="700" y="516" width="6" height="134" rx="3" fill="#0E8F86"/>
+    <text x="730" y="566" font-size="26" font-weight="bold" fill="#FFFFFF">三句话总结</text>
+    <text x="730" y="606" font-size="24" fill="#DCE8F2">筛选从月到秒 · 准确率 &gt;90%</text>
+    <text x="730" y="638" font-size="24" fill="#2FB3A8" font-weight="bold">双轨范式已成，迈向「设计鲜味」</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1116 674 110 34">
+    <text x="1216" y="700" font-size="24" fill="#A3B2BF" text-anchor="end">15 / 15</text>
+  </g>
+</svg>
