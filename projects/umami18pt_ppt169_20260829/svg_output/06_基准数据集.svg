@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#F4F6F7"/>
+
+  <g id="page-header" data-pptx-bounds="64 44 1152 110">
+    <text x="64" y="70" font-size="24" fill="#0E8F86" font-weight="bold" letter-spacing="2">02 · 机器学习技术路线</text>
+    <rect x="64" y="86" width="48" height="6" rx="3" fill="#E8743B"/>
+    <text x="64" y="132" font-size="40" font-weight="bold" fill="#0B2C47">基准数据集：从 UMP442 到 UMP789</text>
+  </g>
+
+  <g id="dataset-table" data-pptx-bounds="64 172 740 348">
+    <g id="dataset-table-table" data-pptx-replace-with="table">
+      <metadata type="application/json">
+        {
+          "x": 64, "y": 172, "width": 740, "height": 348,
+          "name": "dataset-table",
+          "type": "record_table",
+          "style": {"font_size": 24, "header_font_size": 24, "font_family": "Microsoft YaHei"},
+          "columns": ["数据集", "鲜味肽", "非鲜味", "代表模型"],
+          "rows": [
+            ["UMP442", "140", "302", "iUmami-SCM / FRL"],
+            ["UMP499", "212", "287", "Umami-MRNN"],
+            ["UMP789", "330+", "450+", "Umami-BERT"]
+          ]
+        }
+      </metadata>
+      <rect x="68" y="176" width="740" height="348" rx="16" fill="#E3E9ED"/>
+      <rect x="64" y="172" width="740" height="348" rx="16" fill="#FFFFFF" stroke="#DDE6EC" stroke-width="1.5"/>
+      <text x="88" y="214" font-size="26" font-weight="bold" fill="#0B2C47">三代基准数据集</text>
+      <g id="thead">
+        <rect x="88" y="230" width="692" height="52" rx="10" fill="#0B2C47"/>
+        <text x="116" y="265" font-size="24" font-weight="bold" fill="#FFFFFF">数据集</text>
+        <text x="300" y="265" font-size="24" font-weight="bold" fill="#FFFFFF">鲜味肽</text>
+        <text x="430" y="265" font-size="24" font-weight="bold" fill="#FFFFFF">非鲜味</text>
+        <text x="580" y="265" font-size="24" font-weight="bold" fill="#FFFFFF">代表模型</text>
+      </g>
+      <g id="trow1">
+        <text x="116" y="322" font-size="24" font-weight="bold" fill="#0B2C47">UMP442</text>
+        <text x="300" y="322" font-size="24" fill="#273742">140</text>
+        <text x="430" y="322" font-size="24" fill="#273742">302</text>
+        <text x="580" y="322" font-size="24" fill="#273742">iUmami-SCM / FRL</text>
+        <line x1="88" y1="340" x2="780" y2="340" stroke="#F2F5F8" stroke-width="1.5"/>
+      </g>
+      <g id="trow2">
+        <text x="116" y="386" font-size="24" font-weight="bold" fill="#0B2C47">UMP499</text>
+        <text x="300" y="386" font-size="24" fill="#273742">212</text>
+        <text x="430" y="386" font-size="24" fill="#273742">287</text>
+        <text x="580" y="386" font-size="24" fill="#273742">Umami-MRNN</text>
+        <line x1="88" y1="404" x2="780" y2="404" stroke="#F2F5F8" stroke-width="1.5"/>
+      </g>
+      <g id="trow3">
+        <text x="116" y="450" font-size="24" font-weight="bold" fill="#0B2C47">UMP789</text>
+        <text x="300" y="450" font-size="24" fill="#273742">330+</text>
+        <text x="430" y="450" font-size="24" fill="#273742">450+</text>
+        <text x="580" y="450" font-size="24" fill="#273742">Umami-BERT</text>
+      </g>
+      <text x="88" y="500" font-size="24" fill="#A3B2BF">数据规模随研究持续扩充</text>
+    </g>
+  </g>
+
+  <g id="data-points" data-pptx-bounds="828 172 388 348">
+    <g id="dp1">
+      <rect x="832" y="176" width="388" height="160" rx="16" fill="#E3E9ED"/>
+      <rect x="828" y="172" width="388" height="160" rx="16" fill="#FFFFFF" stroke="#CFE4E1" stroke-width="1.5"/>
+      <rect x="828" y="172" width="8" height="160" rx="4" fill="#0E8F86"/>
+      <use data-icon="tabler-outline/chart-bar" x="856" y="196" width="34" height="34" fill="#0E8F86" stroke-width="2"/>
+      <text x="902" y="222" font-size="26" font-weight="bold" fill="#0B2C47">数据驱动性能</text>
+      <text x="856" y="266" font-size="24" fill="#273742">样本量从 442 增至 789，</text>
+      <text x="856" y="300" font-size="24" fill="#273742">直接支撑准确率 0.82 → 0.94。</text>
+    </g>
+    <g id="dp2">
+      <rect x="832" y="356" width="388" height="164" rx="16" fill="#F0DECF"/>
+      <rect x="828" y="352" width="388" height="164" rx="16" fill="#FBE9DD" stroke="#F0DECF" stroke-width="1.5"/>
+      <rect x="828" y="352" width="8" height="164" rx="4" fill="#E8743B"/>
+      <use data-icon="tabler-outline/brain" x="856" y="376" width="34" height="34" fill="#E8743B" stroke-width="2"/>
+      <text x="902" y="402" font-size="26" font-weight="bold" fill="#B5663A">类别不平衡</text>
+      <text x="856" y="446" font-size="24" fill="#273742">鲜味肽是少数类；iUP-BERT</text>
+      <text x="856" y="480" font-size="24" fill="#273742">用 SMOTE 合成少数类样本，</text>
+      <text x="856" y="508" font-size="24" fill="#273742">灵敏度大幅提升。</text>
+    </g>
+  </g>
+
+  <g id="note-band" data-pptx-bounds="64 544 1152 120">
+    <rect x="64" y="544" width="1152" height="120" rx="16" fill="#0B2C47"/>
+    <rect x="64" y="544" width="8" height="120" rx="4" fill="#2FB3A8"/>
+    <text x="100" y="592" font-size="26" fill="#FFFFFF" font-weight="bold">读图要点</text>
+    <text x="100" y="632" font-size="24" fill="#AEBFD0">· 「全猜负类」也能虚高准确率，故必须同时看灵敏度（Sn）与 MCC</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1116 674 110 34">
+    <text x="1216" y="700" font-size="24" fill="#A3B2BF" text-anchor="end">06 / 15</text>
+  </g>
+</svg>

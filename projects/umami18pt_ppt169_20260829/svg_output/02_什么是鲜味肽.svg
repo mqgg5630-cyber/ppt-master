@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#F4F6F7"/>
+
+  <g id="page-header" data-pptx-bounds="64 44 1152 110">
+    <text x="64" y="70" font-size="24" fill="#0E8F86" font-weight="bold" letter-spacing="2">01 · 背景与问题</text>
+    <rect x="64" y="86" width="48" height="6" rx="3" fill="#E8743B"/>
+    <text x="64" y="132" font-size="40" font-weight="bold" fill="#0B2C47">鲜味肽：第五种味觉背后的小分子</text>
+  </g>
+
+  <g id="def-card" data-pptx-bounds="64 164 708 134">
+    <rect x="68" y="168" width="708" height="134" rx="16" fill="#E3E9ED"/>
+    <rect x="64" y="164" width="708" height="134" rx="16" fill="#FFFFFF" stroke="#E3E9ED" stroke-width="1.5"/>
+    <rect x="64" y="164" width="8" height="134" rx="4" fill="#0E8F86"/>
+    <text x="96" y="208" font-size="26" font-weight="bold" fill="#0B2C47">什么是鲜味肽</text>
+    <text x="96" y="250" font-size="24" fill="#273742">由 T1R1/T1R3 受体感知、能赋予食品鲜味的短肽，</text>
+    <text x="96" y="282" font-size="24" fill="#273742">多为 2–8 肽，分子量通常小于 <tspan font-weight="bold" fill="#0E8F86">3000 Da</tspan>。</text>
+  </g>
+
+  <g id="receptor-diagram" data-pptx-bounds="800 164 416 446">
+    <rect x="804" y="168" width="416" height="446" rx="16" fill="#E3E9ED"/>
+    <rect x="800" y="164" width="416" height="446" rx="16" fill="#FFFFFF" stroke="#DDE6EC" stroke-width="1.5"/>
+    <text x="824" y="206" font-size="24" font-weight="bold" fill="#0B2C47">肽链结合 T1R1/T1R3 受体</text>
+    <g id="receptor-shape" stroke="#0E8F86" stroke-width="11" fill="none" stroke-linecap="round">
+      <path d="M940 524 L940 372 Q940 330 904 308 L858 278"/>
+      <path d="M1076 524 L1076 372 Q1076 330 1112 308 L1158 278"/>
+    </g>
+    <circle cx="940" cy="540" r="15" fill="#0E8F86"/>
+    <circle cx="1076" cy="540" r="15" fill="#0E8F86"/>
+    <g id="peptide-chain" fill="none">
+      <line x1="836" y1="246" x2="872" y2="268" stroke="#C7D2DB" stroke-width="5"/>
+      <line x1="906" y1="286" x2="946" y2="304" stroke="#C7D2DB" stroke-width="5"/>
+      <line x1="982" y1="316" x2="1020" y2="302" stroke="#C7D2DB" stroke-width="5"/>
+      <line x1="1056" y1="290" x2="1092" y2="270" stroke="#C7D2DB" stroke-width="5"/>
+      <circle cx="824" cy="238" r="18" fill="#E8743B"/>
+      <circle cx="888" cy="276" r="18" fill="#0B2C47"/>
+      <circle cx="964" cy="310" r="18" fill="#E8743B"/>
+      <circle cx="1038" cy="296" r="18" fill="#0E8F86"/>
+      <circle cx="1106" cy="262" r="18" fill="#0B2C47"/>
+    </g>
+    <line x1="964" y1="328" x2="946" y2="358" stroke="#E8743B" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <line x1="1038" y1="314" x2="1070" y2="354" stroke="#E8743B" stroke-width="2.5" stroke-dasharray="5,4"/>
+    <text x="1008" y="384" font-size="24" fill="#E8743B" text-anchor="middle">氢键 / 盐桥相互作用</text>
+    <line x1="824" y1="420" x2="1192" y2="420" stroke="#EEF2F5" stroke-width="1.5"/>
+    <g id="diagram-legend">
+      <circle cx="838" cy="458" r="8" fill="#E8743B"/><text x="856" y="466" font-size="24" fill="#273742">酸性残基 D / E</text>
+      <circle cx="838" cy="502" r="8" fill="#0B2C47"/><text x="856" y="510" font-size="24" fill="#273742">其他氨基酸残基</text>
+      <circle cx="838" cy="546" r="8" fill="#0E8F86"/><text x="856" y="554" font-size="24" fill="#273742">A / S / G 协同</text>
+    </g>
+  </g>
+
+  <g id="feature-cards" data-pptx-bounds="64 312 708 300">
+    <g id="feat-1">
+      <rect x="68" y="316" width="224" height="296" rx="16" fill="#E3E9ED"/>
+      <rect x="64" y="312" width="224" height="296" rx="16" fill="#FFFFFF" stroke="#E3E9ED" stroke-width="1.5"/>
+      <circle cx="110" cy="364" r="26" fill="#DFF0EE"/>
+      <use data-icon="tabler-outline/atom-2" x="92" y="346" width="36" height="36" fill="#0E8F86" stroke-width="2"/>
+      <text x="88" y="426" font-size="26" font-weight="bold" fill="#0B2C47">序列有规律</text>
+      <line x1="88" y1="442" x2="264" y2="442" stroke="#EEF2F5" stroke-width="1.5"/>
+      <text x="88" y="486" font-size="24" fill="#273742">富含 D、E；</text>
+      <text x="88" y="522" font-size="24" fill="#273742">A、S、G 协同。</text>
+      <text x="88" y="572" font-size="24" fill="#6B7C8A">关键残基</text>
+      <text x="88" y="602" font-size="24" fill="#6B7C8A">D/E/Q/K/R</text>
+    </g>
+    <g id="feat-2">
+      <rect x="310" y="316" width="224" height="296" rx="16" fill="#E3E9ED"/>
+      <rect x="306" y="312" width="224" height="296" rx="16" fill="#FFFFFF" stroke="#E3E9ED" stroke-width="1.5"/>
+      <circle cx="352" cy="364" r="26" fill="#FBE9DD"/>
+      <use data-icon="tabler-outline/soup" x="334" y="346" width="36" height="36" fill="#E8743B" stroke-width="2"/>
+      <text x="330" y="426" font-size="26" font-weight="bold" fill="#0B2C47">来源很广泛</text>
+      <line x1="330" y1="442" x2="506" y2="442" stroke="#EEF2F5" stroke-width="1.5"/>
+      <text x="330" y="486" font-size="24" fill="#273742">肉、海鲜、菌菇，</text>
+      <text x="330" y="522" font-size="24" fill="#273742">腐乳、酱油等。</text>
+      <text x="330" y="572" font-size="24" fill="#6B7C8A">谷氨酸与 IMP/</text>
+      <text x="330" y="602" font-size="24" fill="#6B7C8A">GMP 协同增鲜</text>
+    </g>
+    <g id="feat-3">
+      <rect x="552" y="316" width="224" height="296" rx="16" fill="#E3E9ED"/>
+      <rect x="548" y="312" width="224" height="296" rx="16" fill="#FFFFFF" stroke="#E3E9ED" stroke-width="1.5"/>
+      <circle cx="594" cy="364" r="26" fill="#E8EFF5"/>
+      <use data-icon="tabler-outline/flask" x="576" y="346" width="36" height="36" fill="#0B2C47" stroke-width="2"/>
+      <text x="572" y="426" font-size="26" font-weight="bold" fill="#0B2C47">应用价值高</text>
+      <line x1="572" y1="442" x2="748" y2="442" stroke="#EEF2F5" stroke-width="1.5"/>
+      <text x="572" y="486" font-size="24" fill="#273742">低钠调味品、</text>
+      <text x="572" y="522" font-size="24" fill="#273742">副产物高值化。</text>
+      <text x="572" y="572" font-size="24" fill="#6B7C8A">部分肽鲜度</text>
+      <text x="572" y="602" font-size="24" fill="#6B7C8A">达味精数倍</text>
+    </g>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1116 674 110 34">
+    <text x="1216" y="700" font-size="24" fill="#A3B2BF" text-anchor="end">02 / 15</text>
+  </g>
+</svg>

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, Arial, sans-serif" data-pptx-page-role="content">
+  <rect id="bg" x="0" y="0" width="1280" height="720" fill="#F4F6F7"/>
+
+  <g id="page-header" data-pptx-bounds="64 44 1152 110">
+    <text x="64" y="70" font-size="24" fill="#0E8F86" font-weight="bold" letter-spacing="2">02 · 机器学习技术路线</text>
+    <rect x="64" y="86" width="48" height="6" rx="3" fill="#E8743B"/>
+    <text x="64" y="132" font-size="40" font-weight="bold" fill="#0B2C47">特征编码：从序列到数值向量</text>
+  </g>
+
+  <g id="encode-flow" data-pptx-bounds="64 172 1152 120">
+    <rect x="68" y="176" width="1152" height="120" rx="16" fill="#E3E9ED"/>
+    <rect x="64" y="172" width="1152" height="120" rx="16" fill="#FFFFFF" stroke="#DDE6EC" stroke-width="1.5"/>
+    <g id="seq-box" font-family="Consolas, monospace" font-size="28" font-weight="bold">
+      <rect x="96" y="214" width="52" height="52" rx="8" fill="#E8743B"/><text x="122" y="250" fill="#FFFFFF" text-anchor="middle">E</text>
+      <rect x="156" y="214" width="52" height="52" rx="8" fill="#0B2C47"/><text x="182" y="250" fill="#FFFFFF" text-anchor="middle">G</text>
+      <rect x="216" y="214" width="52" height="52" rx="8" fill="#E8743B"/><text x="242" y="250" fill="#FFFFFF" text-anchor="middle">D</text>
+      <rect x="276" y="214" width="52" height="52" rx="8" fill="#0B2C47"/><text x="302" y="250" fill="#FFFFFF" text-anchor="middle">S</text>
+      <rect x="336" y="214" width="52" height="52" rx="8" fill="#E8743B"/><text x="362" y="250" fill="#FFFFFF" text-anchor="middle">E</text>
+      <rect x="396" y="214" width="52" height="52" rx="8" fill="#0B2C47"/><text x="422" y="250" fill="#FFFFFF" text-anchor="middle">R</text>
+    </g>
+    <use data-icon="tabler-outline/arrow-right" x="486" y="230" width="34" height="34" fill="#0E8F86" stroke-width="2"/>
+    <text x="540" y="230" font-size="24" fill="#6B7C8A">编码 Encoding</text>
+    <g id="vec">
+      <rect x="540" y="240" width="40" height="40" rx="6" fill="#DFF0EE"/>
+      <rect x="588" y="240" width="40" height="40" rx="6" fill="#E8EFF5"/>
+      <rect x="636" y="240" width="40" height="40" rx="6" fill="#FBE9DD"/>
+      <rect x="684" y="240" width="40" height="40" rx="6" fill="#DFF0EE"/>
+      <rect x="732" y="240" width="40" height="40" rx="6" fill="#E8EFF5"/>
+      <text x="786" y="270" font-size="26" fill="#6B7C8A">… 数十～数千维向量</text>
+    </g>
+  </g>
+
+  <g id="manual" data-pptx-bounds="64 316 560 296">
+    <rect x="68" y="320" width="560" height="296" rx="16" fill="#E3E9ED"/>
+    <rect x="64" y="316" width="560" height="296" rx="16" fill="#FFFFFF" stroke="#CFE4E1" stroke-width="1.5"/>
+    <rect x="64" y="316" width="560" height="60" rx="16" fill="#DFF0EE"/>
+    <use data-icon="tabler-outline/binary-tree" x="88" y="328" width="34" height="34" fill="#0E8F86" stroke-width="2"/>
+    <text x="132" y="356" font-size="26" font-weight="bold" fill="#0B2C47">手工特征（依赖专家经验）</text>
+    <g id="manual-items" font-size="24" fill="#273742">
+      <text x="88" y="414">· AAC 氨基酸组成（20 维）</text>
+      <text x="88" y="452">· DPC 二肽组成（400 维）</text>
+      <text x="88" y="490">· PAAC / APAAC 拟氨基酸组成</text>
+      <text x="88" y="528">· CTD 组成-转换-分布特征</text>
+      <text x="88" y="566">· 电荷 / 疏水性 / pKa；Mordred 描述符</text>
+    </g>
+    <rect x="88" y="580" width="300" height="26" rx="13" fill="#F4F6F7"/>
+    <text x="104" y="600" font-size="24" fill="#B5663A">特点：可解释，但有噪声 / 冗余</text>
+  </g>
+
+  <g id="deep" data-pptx-bounds="648 316 568 296">
+    <rect x="648" y="316" width="568" height="296" rx="16" fill="#0B2C47"/>
+    <use data-icon="tabler-outline/brain" x="676" y="344" width="34" height="34" fill="#2FB3A8" stroke-width="2"/>
+    <text x="720" y="372" font-size="26" font-weight="bold" fill="#FFFFFF">深度表征（当前主流）</text>
+    <g id="deep-items" font-size="24" fill="#DCE8F2">
+      <text x="676" y="430">· BERT / Transformer 海量蛋白序列预训练</text>
+      <text x="676" y="470">· 残基 → 带上下文语义的高维嵌入</text>
+      <text x="676" y="510">· 两阶段微调，端到端学习</text>
+      <text x="676" y="550">· 注意力权重可定位关键残基</text>
+    </g>
+    <rect x="676" y="570" width="330" height="32" rx="16" fill="#123A5A"/>
+    <text x="694" y="593" font-size="24" fill="#2FB3A8" font-weight="bold">代表：iUP-BERT、Umami-BERT</text>
+  </g>
+
+  <g id="page-footer" data-pptx-bounds="1116 674 110 34">
+    <text x="1216" y="700" font-size="24" fill="#A3B2BF" text-anchor="end">07 / 15</text>
+  </g>
+</svg>
